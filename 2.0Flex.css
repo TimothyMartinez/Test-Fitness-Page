@@ -1,0 +1,269 @@
+/* NAVBAR */
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: ivory;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(50,185,229);
+    
+    
+    
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 1.2rem;
+    padding-top: 3%;
+    background-color: rgb(50,185,229)
+    
+}
+
+
+
+#lrg {
+    margin-right: .4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    border-radius: 50%
+    
+}
+
+#sml {
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border-radius: 50%
+}
+
+.flexnav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.space-right {
+    margin-right: -8rem;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    word-spacing: 2rem;
+    
+
+}
+
+.space-right div {
+    margin-left: 3rem;
+    
+
+}
+
+/* BODY */
+.phone {
+    min-width: 40%;
+    max-width: 400px;
+    margin-right: 30px;
+}
+
+
+.content {
+    grid-area: main;
+    padding-left: 10%;
+    background-color: rgb(50,185,229);
+    width: 30%;
+    max-width: 130%;
+}
+
+.morecont {
+    height: 9rem;
+    transform: skew(0deg);
+    background: white;
+    height: 20rem;
+    transform: skewy(-1.7deg);
+    background-color:white;
+    position: relative;
+    top: -16rem;
+    z-index: 2;
+    
+    
+    
+    
+}
+.sidebar {
+    text-align: end;
+    padding-top: 5%;
+    background-color: rgb(50,185,229);
+    
+}
+
+.ubufont {
+    padding-right: 9rem;
+    font-size: 1.2rem;
+}
+
+
+
+.bitfont {
+    font-size: 3rem;
+    color: white;
+}
+
+.hrbarstuff {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    bottom: 26rem;
+    left: 6rem;
+    background-color: white;
+    margin-right: 4rem;
+    padding-right: 15rem;
+    
+    
+}
+
+.hrbarstuff div {
+    display: flex;
+    height: 10rem;
+    padding-left: 3rem;
+    
+    
+    
+}
+
+form {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.btn {
+    width: 16rem;
+    height: 4rem;
+    background-color: rgb(0,116,154);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+
+
+
+.footer {
+    grid-area: ft;
+    background-color: rgb(50,185,229);
+}
+
+.trck h2 {
+    font-size: 2rem;
+    width: 15rem;
+    color: rgb(16, 137, 177);
+
+}
+
+.mng h2 {
+    font-size: 2rem;
+    width: 15rem;
+    color: rgb(16, 137, 177);
+
+}
+
+.syn h2 {
+    font-size: 2rem;
+    width: 15rem;
+    color: rgb(16, 137, 177);
+
+}
+
+.trck span {
+    font-size: 1.3rem;
+    width: 15rem;
+
+}
+
+.mng span {
+    font-size: 1.3rem;
+    width: 15rem;
+    
+
+}
+
+.syn span {
+    font-size: 1.3rem;
+    width: 15rem;
+
+}
+
+.trck {
+    display: flexbox;
+    flex-direction: column;
+    width: 20rem;
+    
+    border-right: 1px solid rgb(57,192,231);
+}
+
+.mng {
+    display: flexbox;
+    flex-direction: column;
+    width: 20rem;
+    
+    
+}
+
+.syn {
+    display: flexbox;
+    flex-direction: column;
+    width: 20rem;
+    border-left: 1px solid rgb(57,192,231);
+    
+    
+}
+
+.page2 {
+    border-top: 1px solid rgb(57,192,231);
+    position: relative;
+    bottom:  26rem;
+    z-index: 4;
+    background-color: white;
+    height: 30rem;
+
+}
+
+.wrkfeat {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    margin: 1rem;
+    color: rgb(57,192,231);
+}
+
+.wrkfeat h1 {
+    margin: .5rem;
+    font-size: 3rem;
+}
+
+.wrkfeat h1:nth-child(1) {
+    font-weight: lighter;
+}
+
+.hrrules {
+    width: 5rem;
+    color: rgb(57,192,231);
+}
+
+.thisdiv {
+    border-color: rgb(57,192,231);
+    width: 12rem;
+    position: relative;
+    left: 45%;
+    
+}
