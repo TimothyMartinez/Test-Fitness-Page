@@ -287,7 +287,7 @@ form {
 .perform {
     display: flex;
     flex-direction: column;
-    margin-left: 24rem;
+    margin-left: 19rem;
 }
 
 .perform h1 {
@@ -300,7 +300,8 @@ form {
 .wrdpc {
     position: relative;
     top: -6rem;
-    left: 25rem;
+    height: 50.6rem;
+    left: 32rem;
 }
 
 
@@ -308,10 +309,11 @@ form {
 .anotherline {
     position: relative;
     bottom: 6.4rem;
+    border-style: solid;
     border-width: 1.1px;
     border-style: solid;
     border-color: rgb(184, 225, 238);
-    border-image: initial;
+    background-color: rgb(184, 225, 238);
 }
 
 .page3 {
@@ -457,7 +459,7 @@ footer {
 }
 
 .flexfoot {
-    margin-right: 10rem;
+    margin-right: 14rem;
     color: rgb(112, 112, 112);
     font-family: serif;
     font-size: 1.4rem;
@@ -467,10 +469,12 @@ footer {
     display: flex;
     margin-left: 20rem;
     font-size: 1.4rem;
+
 }
 
 .spacer-right a:link {
     color: rgb(112, 112, 112);
+    margin-right: 1.5rem;
 }
 
 
