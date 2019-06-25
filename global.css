@@ -19,9 +19,11 @@
 
 }
 
-body {
-    background-color: rgb(50,185,229);  
-}
+
+    body {
+        background: linear-gradient (90deg, rgb(50, 185, 229) 0%, rgb(76, 166, 226) 35%, rgb(52, 162, 235) 63%, rgb(92, 168, 235) 91%);
+    }  
+
 
 div {
     min-width: 2rem;
