@@ -5,24 +5,19 @@
     
 }
 
-* {
-    margin: 0;
-    
-
-}
 
 .wrapper {
     display: flex;
-    padding-left: 22%;
+    justify-content: center;
     padding-top: 9%;
     background-color: rgb(50,185,229);
 
 }
 
 
-    body {
-        background: linear-gradient (90deg, rgb(50, 185, 229) 0%, rgb(76, 166, 226) 35%, rgb(52, 162, 235) 63%, rgb(92, 168, 235) 91%);
-    }  
+body {
+    background: linear-gradient (90deg, rgb(50, 185, 229) 0%, rgb(76, 166, 226) 35%, rgb(52, 162, 235) 63%, rgb(92, 168, 235) 91%);
+}  
 
 
 div {
@@ -35,8 +30,11 @@ div {
     letter-spacing: .3rem;
     font-weight: bold;
     color: rgb(6, 108, 139);
+    padding-right: 9rem;
 }
 
 .bitfont {
-	font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
+    font-size: 3rem;
+    color: white;
 }

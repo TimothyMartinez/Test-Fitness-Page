@@ -79,7 +79,7 @@ a:visited {
 
 .content {
     grid-area: main;
-    padding-left: 10%;
+    padding-left: 5%;
     background-color: rgb(50,185,229);
     width: 30%;
     max-width: 130%;
@@ -101,22 +101,8 @@ a:visited {
     
 }
 .sidebar {
-    text-align: end;
     padding-top: 5%;
     background-color: rgb(50,185,229);
-    
-}
-
-.ubufont {
-    padding-right: 9rem;
-    font-size: 1.2rem;
-}
-
-
-
-.bitfont {
-    font-size: 3rem;
-    color: white;
 }
 
 .hrbarstuff {
@@ -263,19 +249,23 @@ form {
     color: rgb(57,192,231);
 }
 
-.thisdiv {
-    border-color: rgb(57,192,231);
-    width: 12rem;
-    position: relative;
-    left: 45%;
-    
-}
-
 .thatdiv {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 3.5rem;
-    margin-right: 5rem;
+    padding: 0 20%;
+}
+
+
+.thatdiv > #current::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -30px;
+    width: 2px;
+    margin-left: 75px;
+    background-color: #5BBA68;
 }
 
 .thatdiv img:nth-child(2) {
@@ -285,9 +275,12 @@ form {
 }
 
 .perform {
-    display: flex;
-    flex-direction: column;
-    margin-left: 19rem;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.perform > * {
+    z-index: 20;
 }
 
 .perform h1 {
@@ -299,16 +292,16 @@ form {
 
 .wrdpc {
     position: relative;
-    top: -6rem;
-    height: 50.6rem;
-    left: 32rem;
+    top: -5rem;
+    left: 25rem;
+    width: 60%;
 }
 
 
 
 .anotherline {
     position: relative;
-    bottom: 6.4rem;
+    bottom: 5.5rem;
     border-style: solid;
     border-width: 1.1px;
     border-style: solid;
@@ -353,8 +346,7 @@ form {
 
 .thisdiv {
     width: 12rem;
-    position: relative;
-    left: 44%;
+    margin: 0 auto;
     border-color: rgb(57, 192, 231);
 }
 
