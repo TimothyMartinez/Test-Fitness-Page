@@ -261,10 +261,11 @@ form {
     display: block;
     content: "";
     position: absolute;
-    top: 0;
+    height: 5rem;
+    top: 420px;
     bottom: -30px;
     width: 2px;
-    margin-left: 75px;
+    margin-left: 67px;
     background-color: #5BBA68;
 }
 
